@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    char a[50];
+    printf("enter the name of character");
+    scanf("%s",&a);
+    
+    printf("matching letters :%s",&a);
+    return 0;
+}
