@@ -1,0 +1,52 @@
+// program to find the length of a string using "strlen" function;
+
+/*#include<string.h>
+#include<stdio.h>
+int main()
+{
+    int count=0;
+    char name[20];
+    printf("enter name of string :");
+    gets(name);
+    count=strlen(name);
+    puts(name);
+    printf("length of the string: %d", count);
+    getch();
+    return 0;
+}..........*/
+
+
+// program to find the length of a string without using "strlen" function;
+
+
+#include<string.h>
+#include<stdio.h>
+int main()
+{
+    int count=0,i=0;
+    char name[20];
+    printf("enter name of string :");
+    gets(name);
+    puts(name);
+    while(name[i]!='\0')
+    {
+        count++;
+        i++;
+     }
+    printf("length of the string : %d", count);
+    getch();
+    return 0;
+}..........*/
+
+
+
+
+
+
+
+
+
+
+
+
+
