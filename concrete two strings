@@ -1,0 +1,38 @@
+
+//WAP to print string concatination using predefined function......
+/*#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char s1[30]="abdul";
+    char s2[10]="wali";
+    strcat(s1,s2);
+    printf("%s\n",s1);
+    puts(s2);
+    return 0;
+} */
+
+
+//WAP to print string concatination without using predefined function......
+
+
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    int l1,l2,i;
+    char s1[30]="abdul";
+    char s2[10]="wali";
+    l1=strlen(s1);
+    l2=strlen(s2);
+    for(i=0; i<=l2; i++)
+    {
+        s1[l1+i]=s2[i];
+    }
+    printf("%s\n",s1);
+    puts(s2);
+    
+    return 0;
+    
+    
+}
