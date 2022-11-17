@@ -1,0 +1,67 @@
+// wap to make a basic calculator using switch cases.....
+#include<stdio.h>
+int main()
+{
+    int a, b ,sum, sub, mult, div;
+    char operator;
+    printf(" enter your choice\n" );
+    scanf("%c",&operator);
+    printf(" enter two values\n ");
+    scanf("%d%d",&a,&b);
+    switch(operator)
+    {
+        case '+':
+        sum=a+b;
+        printf("sum=%d",sum);
+        break;
+        case '-':
+        sub=a-b;
+        printf("sub=%d",sub);
+        break;
+        case '*':
+        mult=a*b;
+        printf("mult=%d",mult);
+        break;
+        case '/':
+        div=a/b;
+        printf("div=%d",div);
+        break;
+        default:
+        printf("invalid operator");
+        
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
