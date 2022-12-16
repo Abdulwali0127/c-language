@@ -1,0 +1,18 @@
+#include<stdio.h>
+//#include<math.h>
+int main()
+ {
+    int t1=0, t2=1, nextterm=0, N;
+    printf("enter positive number\n ");
+    scanf("%d", &N);
+    printf("%d%d", t1,t2);
+    nextterm=t1+t2;
+    while(nextterm<=N)
+    {
+        printf("%d", nextterm);
+        t1=t2;
+        t2=nextterm;
+        nextterm=t1+t2;
+    }
+    return 0;
+ }  
